@@ -1,0 +1,127 @@
+Q1).What are the http methods? Differentiate each method.
+A).HTTP stands for Hyper Text Transfer Protocol.It is for establishing communication between server and client.
+The different http methods are
+ i  .Post:-To send data to sever.
+ ii .Get:-To retrieve information from a given server using a given URI(Uniform Resource Identifier).
+ iii.Put:-Replace all current representations of target resource with the new content.
+ iv .Patch:-It is used to apply partial modifications to the resource,ie we may only need to send the updates
+ v  .Delete:-Removes all current representations of the target resource from a given URI.
+ vi .Options:-Describe the communication options for the target resource.
+ vii.Head :-It is same as head,but transfers only status line and header section.
+There are other methods like
+ i.Connect:-Establishes a connection to the server by the given URI.
+ii.Trace:-Performs a message loop back test along the path to target resource.
+
+Q2).What are the different http response codes?
+A).The http status codes are
+1xx Informational
+2xx Success
+3xx Redirection
+4xx Client Error
+5xx Server Error
+
+Q3).What is idempotency?
+A).An idempotent method means that the result of a successful performed requesr is independent of the number of 
+times its executed,i.e making multiple identical requests has the same effect as making a single request.
+
+Q4).What is content delivery network?
+A).A CDN allows for the quick transfer of assets needed for loading a webpage include HTML pages,javascript files
+filesheets,images and videos.The main advantages of CDN are
+ i.Improving the website load time:-As distributing center is near client,client may get faster response.
+ii.Reducing the traffic on the server:-As the distributing servers are more,Main server gets the less requests since
+majority of the work is done by the distributing servers themselves.
+
+Q5).Different types of OS and Browsers? and technologies used in it?
+A).Ubuntu-C++ language
+   Linux-ANSI C
+   Windows-Assembly,C and C++.
+   MAC os- PASCAL,C and C++.
+   UNIX-Assembly language.
+
+Q6).What is meant by MEAN stack and MERN stack?
+A).There are two dominant Javascript webapp stacks.They are
+	i. MEAN stack(MongoDB, Express, Angular, Nodejs)
+	ii.MERN stack(MongoDB, Expresss, React, Nodejs)
+      The only difference between mean stack and mern stack is they differ in languages used like 
+	Angularjs and Reactjs.
+
+Q7).Advantages that compiled languages bring over interpreted languages
+A).Features Interpreted languages give over compiled languages are
+    i.Platform independancy
+   ii.Dynamic scoping-It doesn't see how the code is written,instead how the code is executed.
+  iii.Dynamic typing-Dynamic typed languages are languages in which variables must necessarily be defined 
+      before the usage.
+
+Q8).Time and space complexities?
+A).Space Complexity:- It is a function describing the amount of memory(space) an algorith takes in terms 
+   of amount of input to the algortihm.
+   Time complexity:-It is the amount of time taken by a set of code or algorithm to process or run as a
+   function of  input.
+Different notations in time complexities are
+  i.Big O:-For worst case scenario
+ ii.Big omega:-For best case scenario
+iii.Big theta:-For average case scenario.
+ 
+Q9).Define Data structures:-
+A).They are the way of organizing ,management and storing a huge amount of data for efficient, fast 
+and smooth access of retrieval for a long run usage.
+They are classified into 2 types.They are
+ i.Linear data structures.
+ii.Non linear data structures.
+The different data structues are stacks, queues, linkedlists ,trees, arrays, graphs and so on.
+
+Q10).Single thread and multi thread?
+A).Single threaded programming:-
+   i.only 1 thread runs at a time.
+  ii.Cpu time is wasted and system idle time is more.
+ iii.Results in less efficient programs.
+Multi threaded programming:-
+   i.Multiple threads run at a time.
+  ii.cpu time is never wasted and idle time is less.
+ iii.Results in high efficient progams.
+
+Q11).What is multi processing and multi threading?
+A).Multi-processing:-It means executing multiple processes at the same time.
+it refers to hardware rather than software.
+Multi-threading:-It is an execution model that allows a single processor to have multiple code segments run 
+concurrently within the context of that process.
+However, a system is efficient by using both multi-processing and multi-threading at the same time by
+having more than one physical processor.
+
+Q12).Difference between synchronous and asynchronous programming?
+A).Synchronous execution usually refers to the code executing in sequence, whereas asynchronous execution 
+refers to the code executing doesn't run in the sequence it appears in the code.
+eg for synchronous execution:
+alert(1);
+alert(2);
+alert(3);//code follows the same order.
+eg for asynchronous execution
+alert(1);
+setTimeout(() => alert(2), 0);
+alert(3);//code doesn't follow the same order.
+
+Q13).What is Non blocking io?
+A).Blocking io refers to block all the other operations till the current operation finishes
+whereas non blocking io doesn't block any operations till the current operation finishes ie 
+it continues to take any number of operations.
+
+Q14).What is event loop?
+A).As javascript is a single threaded language, it uses some of the concepts like eventloop.
+Eventloop is a queue of call back functions and it has call stack and event queue,event queue.
+The sole purpose of event table is to keep track of events and send them to event queue.
+The event queue is similar to stack executing the calls that comes at the last.
+Event loop runs till the call stack is empty.
+
+Q15).What is libuv?
+A).It is a multi-platform C library that provides support for asynchronous I/O based
+ on event loops.It is written in C.It is designed to use in Nodejs.
+
+Q16).What is V8 engine?
+A).It is an opensource javascript engine for chrome browsers.It converts javascript to machine 
+code before executing.It is used both in browsers and as a standalone high performance engine 
+for independant projects.
+
+Q17).Why Nodejs?
+A).Nodejs is a platform  for building fast, scalable network applications.
+It uses an eventloop, non-blocking I/O model that makes it lightweight and efficient
+ to run across distributed devices.
